@@ -9,7 +9,16 @@ Thanks to two functions :
 1-  bypass branch that bypasses a branch a not optimal solution 
 2-  next vertex which is essentialy to keep exploring the tree 
 
-## Note:a timer of 10 minutes has been set for every instance
+## Note: A timer of 10 minutes has been set for every instance
 
+## Results : a timer of apprximatly 900 seconds has been set for every instances 
+| N     | Cost        | time(s)    |visited Nodes  |
+| ----- |:-----------:| ----------:|--------------:|
+|  5    |     5       |    0.4368  |    115458     |
+|  10   |     10      |    5.0263  |    957418     |
+|  20   |     23      |    0.47799 |    101999     |
+|  100  |     201     |    978.981 |    22332383   |
+|  500  |     1645    |    967.156 |    4424785    |
+|  1000 |     3843    |    953.476 |    1763232    |
 this work has been inspired by another source from github , andrea rubbi . another student that has solved the set Covering problem however the idea to use branch and bound was thought by myself since I have gotten familliar with cited method through an operational research course that I have followed last year. 
 
