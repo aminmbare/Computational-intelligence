@@ -20,5 +20,7 @@ Thanks to two functions :
 |  100  |     201     |    978.981 |    22332383   |
 |  500  |     1645    |    967.156 |    4424785    |
 |  1000 |     3843    |    953.476 |    1763232    |
+
+
 this work has been inspired by another source from github , andrea rubbi . another student that has solved the set Covering problem however the idea to use branch and bound was thought by myself since I have gotten familliar with cited method through an operational research course that I have followed last year. 
 
