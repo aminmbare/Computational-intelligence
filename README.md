@@ -15,7 +15,7 @@ Thanks to two functions :
 
 ## Note: A timer of 10 minutes has been set for every instance
 
-## Results : a timer of apprximatly 900 seconds has been set for every instances 
+## Results : a timer of approximately 900 seconds has been set for every instances 
 | N     | Cost        | time(s)    |visited Nodes  |
 | ----- |:-----------:| ----------:|--------------:|
 |  5    |     5       |    0.4368  |    115458     |
