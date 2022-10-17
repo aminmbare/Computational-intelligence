@@ -25,7 +25,7 @@ Thanks to two functions :
 |  500  |     1645    |    967.156 |    4424785    |
 |  1000 |     3843    |    953.476 |    1763232    |
 
-##ACKNOWLEDGEMENT
+## ACKNOWLEDGEMENT
 
  https://github.com/AndreaRubbi/Set-Cover-problem-solution-Python
 
