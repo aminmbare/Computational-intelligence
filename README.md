@@ -13,7 +13,7 @@ Thanks to two functions :
 
 2-  next vertex which is essentialy to keep exploring the tree 
 
-## Note: A timer of 10 minutes has been set for every instance
+## Note: A timer of 15 minutes has been set for every instance
 
 ## Results : a timer of approximately 900 seconds has been set for every instances 
 | N     | Cost        | time(s)    |visited Nodes  |
