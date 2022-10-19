@@ -5,7 +5,7 @@ for the set cover problem our variables are binary ( 1 if a subset is in the sol
 The general concept of branch and bound is the following .Imagine a binary tree, as deep as the number of variables you have, at each level, each variable can take the values 1 or 0.
 
 A solution to the problem would be a path from the top of the tree to the bottom which reaches the highest total value under the given cost constraints
-In order to reduce the number of calculations, we want to "prune" the tree, ie ignore completely sections of it which we know can't have better results than the best one we've already found, without needing to fully calculate what results they achieve. So branches are developed as long their vertexes don't increase the cost of the solution. 
+In order to reduce the number of calculations, we want to "prune" the tree, ie ignore completely sections of  which we know it can't have better results than the best one we've already found, without needing to fully calculate what results they achieve. So branches are developed as long their vertexes don't increase the cost of the solution. 
 
 Thanks to two functions : 
 
