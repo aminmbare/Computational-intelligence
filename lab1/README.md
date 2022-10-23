@@ -9,6 +9,7 @@ In order to reduce the number of calculations, we want to "prune" the tree, ie i
 Thanks to two functions : 
 
 1-  bypass branch that bypasses a branch a not optimal solution 
+
 2-  next vertex which is essentialy to keep exploring the tree 
 
 
