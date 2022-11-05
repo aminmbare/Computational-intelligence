@@ -27,13 +27,16 @@ $w_i$ = the number of columns that cover row $i$ ,
 
 (ii) for each row $i$ in $I$ : 
         
-  (a) randomly select a column j in $\alpha_i$ , 
+   (a) randomly select a column j in $\alpha_i$ , 
         
-  (b) add $j$ to $S_p$ and set $w_i$ := $w_i$ + 1, $\forall$ $i$ $\in$ $\beta_j$ . 
+   (b) add $j$ to $S_p$ and set $w_i$ := $w_i$ + 1, $\forall$ $i$ $\in$ $\beta_j$ . 
 
 (iii) Let $T$ := $S_p$ 
 
-(iv) Randomly select a column $j$ , $j$  $\in$ $T$ and set $T$ := $T$ - $j$ . If $w_i$ $\geq$ 2 , $\forall$ i $\in$ $\beta_j$ ,
+(iv) Randomly select a column $j$ , $j$  $\in$ $T$ and set $T$ := $T$ - $j$ . 
+
+If $w_i$ $\geq$ 2 , $\forall$ i $\in$ $\beta_j$ ,
+
 set $S_p$ := $S_p$ - $j$ and set $w_i$ := $w_i$ - 1, $\forall$ $i$ $\in$ $\beta_j$ .
 
 (v) Repeat step (iv) until $T$ = $\emptyset$
