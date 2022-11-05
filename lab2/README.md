@@ -79,7 +79,7 @@ To summarise our GA , the following steps are used.
 
 (iii) Combine $P_1$ and $P_2$  to form a new solution $C$ using the fusion crossover operator. 
 
-(iv) Mutate $k$ randomly selected genes from the solution. 
+(iv) Mutate $k$ randomly selected genes in $C$. 
 
 (v) Make $C$ feasible and remove redundant columns in $C$ by applying the heuristic operator .
 
