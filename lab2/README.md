@@ -23,15 +23,15 @@ $w_i$ = the number of columns that cover row $i$ ,
 
 **initial population**
 
-( i )- initiliase $S_p$ := $\emptyset$ , initialise $w_i$ := 0, $\forall$ $i$ $\in$ $I$ ,
+(i) initiliase $S_p$ := $\emptyset$ , initialise $w_i$ := 0, $\forall$ $i$ $\in$ $I$ ,
 
-( ii ) - for each row $i$ in $I$ : 
+(ii)  for each row $i$ in $I$ : 
         
    (a) randomly select a column j in $\alpha_i$ , 
         
    (b) add $j$ to $S_p$ and set $w_i$ := $w_i$ + 1, $\forall$ $i$ $\in$ $\beta_j$ . 
 
-($iii$) Let $T$ := $S_p$ 
+(iii) Let $T$ := $S_p$ 
 
 (iv) Randomly select a column $j$ , $j$  $\in$ $T$ and set $T$ := $T$ - $j$ . 
 
