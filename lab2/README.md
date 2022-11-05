@@ -23,7 +23,7 @@ $w_i$ = the number of columns that cover row $i$ ,
 
 **initial population**
 
-($i$) initiliase $S_p$ := $\emptyset$ , initialise $w_i$ := 0, $\forall$ $i$ $\in$ $I$ ,
+( $i$ ) initiliase $S_p$ := $\emptyset$ , initialise $w_i$ := 0, $\forall$ $i$ $\in$ $I$ ,
 
 ($ii$) for each row $i$ in $I$ : 
         
