@@ -1,6 +1,6 @@
 #  LAB 2 : GENETIC ASLGORITHM FOR SET COVERING PROBELM 
 
-for this lab I used the genetic algoritrhm to solve thebset covering problem 
+for this lab I used the genetic algoritrhm to solve the set covering problem 
 
 **Let**
 
@@ -42,6 +42,31 @@ set $S_p$ := $S_p$ - $j$ and set $w_i$ := $w_i$ - 1, $\forall$ $i$ $\in$ $\beta_
 (v) Repeat step (iv) until $T$ = $\emptyset$
 
 
+## PARENT SELECTION
+
+We chose the roulette for the parent selection with a bias towards the fittest individual , with a selection pressure equal to 50 
 
 
+
+## CROSS OVER OPERATOR 
+
+We will apply a one-point cross-over
+
+## HEURISTIC FEASABILITY OPERATOR 
+
+(i) Initialise $w_i$ := | S $\cap$ $\alpha_i$ , $\forall$ $i$ $\in$ $I$ ,
+
+(ii) Initialise $U$ := { $i$ | $w_i$ = 0 , $\forall$ $i$ $\in$ $I$ , 
+
+(iii) For each row $i$ in $U$ ( in increasing order of i ):
+        
+   (a) find the first column $j$ (in increasing order of j ) in $\alpha_i$ that minimises $c_j$ / |$U$ $\cap$ $\beta_j$ | , 
+   
+   (b) add $j$ in $S$ and set $w_i$ := $w_i$ + 1 , $\forall$ $\in$ $\beta_j$ . Set $U$ := $U$ - $\beta_j$
+   
+(iv) For each column $j$ in $S$ (in decreasing order of $j$ ) , if $w_i$ $\geq$ 2 , $\forall$ $i$ $\in$ $\beta_j$ , set $S$ := $S$ - $j$ and 
+
+set $w_i$ := $w_i$ - 1 , $\forall$ $i$ $\in$ $\beta_j$ .
+
+(v) $S$ is now in a feasible solution and contains no redundant columns 
 
