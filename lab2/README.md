@@ -1,7 +1,9 @@
 #  LAB 2 : GENETIC ASLGORITHM FOR SET COVERING PROBELM 
 
 for this lab I used the genetic algoritrhm to solve thebset covering problem 
+
 **Let**
+
 ``
 \I =  set of numbers to cover , we will refer to them as rows,
 \J =  total subsets used to cover I, we will refer to them as columns,
