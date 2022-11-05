@@ -60,7 +60,9 @@ We will apply a one-point cross-over
    
    (b) add $j$ in $S$ and set $w_i$ := $w_i$ + 1 , $\forall$ $\in$ $\beta_j$ . Set $U$ := $U$ - $\beta_j$
    
-(iv) For each column $j$ in $S$ (in decreasing order of $j$ ) , if $w_i$ $\geq$ 2 , $\forall$ $i$ $\in$ $\beta_j$ , set $S$ := $S$ - $j$ and set $w_i$ := $w_i$ - 1 , $\forall$ $i$ $\in$ $\beta_j$ .
+(iv) For each column $j$ in $S$ (in decreasing order of $j$ ) , if $w_i$ $\geq$ 2 , $\forall$ $i$ $\in$ $\beta_j$ , set $S$ := $S$ - $j$ and set $w_i$ := 
+
+$w_i$ - 1 , $\forall$ $i$ $\in$ $\beta_j$ .
 
 (v) $S$ is now in a feasible solution and contains no redundant columns 
 
