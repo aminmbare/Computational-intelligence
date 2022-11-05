@@ -5,13 +5,13 @@ for this lab I used the genetic algoritrhm to solve thebset covering problem
 **Let**
 
 
-$$ I =  set of numbers to cover , we will refer to them as rows, $$
-$$ J =  total subsets used to cover I, we will refer to them as columns, $$
-$$ \alpha_i = the set of  columns that cover row i , i \in I , $$
-$$ \beta_j = the set of rows covered by columns j , j \in J ,  $$
-$$ S = the set of columns in a solution, $$
-$$ U = the set of uncovered rows, $$
-$$ \w_i = the number of columns that cover row \i , $$
+I =  set of numbers to cover , we will refer to them as rows, 
+J =  total subsets used to cover I, we will refer to them as columns, 
+$$\alpha_i$$ = the set of  columns that cover row i , i $$\in$$ I , 
+$$\beta_j$$ = the set of rows covered by columns j , j $$\in$$ J ,  
+S = the set of columns in a solution, 
+U = the set of uncovered rows, 
+$$\w_i$$ = the number of columns that cover row i ,
 
 ## POPULATION SIZE AND  INITIAL POPULATION 
 
