@@ -53,7 +53,7 @@ We chose the roulette for the parent selection with a bias towards the fittest i
 We will apply a one-point cross-over
 
 ## HEURISTIC FEASABILITY OPERATOR 
-``
+```
 (i) Initialise $w_i$ := | S $\cap$ $\alpha_i$ | , $\forall$ $i$ $\in$ $I$ },
 
 (ii) Initialise $U$ := { $i$ | $w_i$ = 0 , $\forall$ $i$ $\in$ $I$ , 
@@ -70,4 +70,4 @@ set $w_i$ := $w_i$ - 1 , $\forall$ $i$ $\in$ $\beta_j$ .
 
 (v) $S$ is now in a feasible solution and contains no redundant columns 
 
-``
+```
