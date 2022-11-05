@@ -69,3 +69,23 @@ set $S$ := $S$ - $j$ and set $w_i$ := $w_i$ - 1 , $\forall$ $i$ $\in$ $\beta_j$ 
 (v) $S$ is now in a feasible solution and contains no redundant columns 
 
 
+## OVERVIEW
+
+To summarise our GA , the following steps are used.
+
+(i) Generate an initial population of $N$ random solution , Set $t$ := 0.
+
+(ii) Select two solutions $P_1$ and $P_2$ from the populatiuon using the roulette.
+
+(iii) Combine $P_1$ and $P_2$  to form a new solution $C$ using the fusion crossover operator. 
+
+(iv) Mutate $k$ randomly selected genes from the solution. 
+
+(v) Make $C$ feasible and remove redundant columns in $C$ by applying the heuristic operator .
+
+(vi) Repeat (iii)-(v) until the off-spring is ready 
+
+(vii) Replace the least fit Individuals in the old generation by the off-spring
+
+(viii)  Repeat (ii)-(vii) until $t$ = $M$ solutions have been generated. The best solution is the one with the smalled fitness in the population
+
