@@ -58,7 +58,7 @@ We will apply a one-point cross-over
 
 (iii) For each row $i$ in $U$ ( in increasing order of i ):
         
-   (a) find the first column $j$ (in increasing order of j ) in $\alpha_i$ that minimises $c_j$ / |$U$ $\cap$ $\beta_j$ | , 
+   (a) find the first column $j$ (in increasing order of j ) in $\alpha_i$ that minimises $c_j$ / | $U$ $\cap$ $\beta_j$ | , 
    
    (b) add $j$ in $S$ and set $w_i$ := $w_i$ + 1 , $\forall$ $\in$ $\beta_j$ . Set $U$ := $U$ - $\beta_j$
    
