@@ -4,7 +4,6 @@ for this lab I used the genetic algoritrhm to solve the set covering problem
 
 **Let**
 
-
 $I$ =  set of numbers to cover , we will refer to them as rows, 
 
 $J$ =  total subsets used to cover $I$, we will refer to them as columns, 
@@ -17,7 +16,14 @@ $S$ = the set of columns in a solution,
 
 $U$ = the set of uncovered rows, 
 
-$w_i$ = the number of columns that cover row $i$ ,
+$w_i$ = the number of columns that cover row $i$ . 
+
+## SOLUTION ENCODING 
+
+We picked the usual 0-1 binary representation. We used an n-bit binary list as the chromosome structure where n is the number of columns in $J$.
+
+A value of 1 for the ith bit implies that column i is in the solution.
+
 
 ## POPULATION SIZE AND  INITIAL POPULATION 
 
