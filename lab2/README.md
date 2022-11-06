@@ -120,3 +120,4 @@ To summarise our GA , the following steps are used.
 ## ACKNOWLEDGEMENT
 
 J.E. Beasley , RC. Chu (1995). A genetic algorithm for the set covering problem
+
