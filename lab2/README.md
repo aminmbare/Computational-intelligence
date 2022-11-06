@@ -47,13 +47,18 @@ set $S_p$ := $S_p$ - $j$ and set $w_i$ := $w_i$ - 1, $\forall$ $i$ $\in$ $\beta_
 
 ## PARENT SELECTION
 
-We chose the roulette for the parent selection with a bias towards the fittest individual , with a selection pressure equal to 50 
+For the parent selection , We made an operator that works in two phases .
+
+(i) Ranfomly select from the population k individuals , the probabilty of taking an Individual is not the same for all individuals ,but instead biased based the respective fitness of the individuals ( inspired by roulette ) 
+
+(ii) Make a tournament out of the k selected individuals and pick the fittest out of them as the parent 
 
 
 
 ## CROSS OVER OPERATOR 
 
 We will apply a one-point cross-over
+
 
 ## HEURISTIC FEASABILITY OPERATOR 
 
