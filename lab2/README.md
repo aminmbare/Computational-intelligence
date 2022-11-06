@@ -100,7 +100,7 @@ To summarise our GA , the following steps are used.
 (viii)  Repeat (ii)-(vii) until $t$ = $M$ solutions have been generated. The best solution is the one with the smalled fitness in the population
 ## RESULTS 
 | Trial  | N       | Cost        | time(s)    | generations   |
-|        |: ----- :|:-----------:| ----------:|--------------:|
+| ------ |: ----- :|:-----------:| ----------:|--------------:|
 | 1      |  5      |     5       |    0.4368  |     1000      |
 | 2      |  10     |     10      |    5.0263  |      1000     |
 | 3      |  20     |     23      |    0.47799 |       10000   |
