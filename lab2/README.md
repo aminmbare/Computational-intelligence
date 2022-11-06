@@ -1,6 +1,5 @@
-#  LAB 2 : GENETIC ASLGORITHM FOR SET COVERING PROBELM 
+#  LAB 2 : GENETIC ALGORITHM FOR SCP 
 
-for this lab I used the genetic algoritrhm to solve the set covering problem 
 
 **Let**
 
