@@ -98,6 +98,7 @@ To summarise our GA , the following steps are used.
 (vii) Replace the least fit Individuals in the old generation by the off-spring
 
 (viii)  Repeat (ii)-(vii) until $t$ = $M$ solutions have been generated. The best solution is the one with the smalled fitness in the population
+
 ## RESULTS 
 
 | Trial  | N       | Cost        | time(s)    | generations   |
