@@ -99,6 +99,7 @@ To summarise our GA , the following steps are used.
 
 (viii)  Repeat (ii)-(vii) until $t$ = $M$ solutions have been generated. The best solution is the one with the smalled fitness in the population
 ## RESULTS 
+
 | Trial  | N       | Cost        | time(s)    | generations   |
 | ------ |: ----- :|:-----------:| ----------:|--------------:|
 | 1      |  5      |     5       |    0.4368  |     1000      |
@@ -114,6 +115,7 @@ To summarise our GA , the following steps are used.
 | 10     |  1000   |     3289    |    953.476 |       1500    |
 | 11     |  1000   |     3299    |    953.476 |       800     |
 | 12     |  1000   |     3338    |    953.476 |       800     |
+
 ## ACKNOWLEDGEMENT
 
 J.E. Beasley , RC. Chu (1995). A genetic algorithm for the set covering problem
