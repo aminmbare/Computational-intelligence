@@ -62,9 +62,9 @@ We will apply a one-point cross-over
 
 ## HEURISTIC FEASABILITY OPERATOR 
 
-(i) Initialise $w_i$ := | S $\cap$ $\alpha_i$ | , $\forall$ $i$ $\in$ $I$ },
+(i) Initialise $w_i$ := | S $\cap$ $\alpha_i$ | , $\forall$ $i$ $\in$ $I$ ,
 
-(ii) Initialise $U$ := { $i$ | $w_i$ = 0 , $\forall$ $i$ $\in$ $I$ , 
+(ii) Initialise $U$ := { $i$ | $w_i$ = 0 }, $\forall$ $i$ $\in$ $I$  , 
 
 (iii) For each row $i$ in $U$ ( in increasing order of i ):
         
