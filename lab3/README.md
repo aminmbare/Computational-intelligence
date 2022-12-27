@@ -156,10 +156,10 @@ the Q learning agent has won 84.54% of matches against the optimal agent.
 ## ACKNOWLEGEMENT
 ### min-max
 
-• [min max](https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague)
+• https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague
 
 ### RL 
 
 •  Reinforcement Learning: An Introduction. Richard S. Sutton and Andrew G. Barto c 2014, 2015. 
 
-•  (https://github.com/abelmariam/nimPy)
+•  https://github.com/abelmariam/nimPy
