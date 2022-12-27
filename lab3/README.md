@@ -71,7 +71,7 @@ The sum of the winning ratio of our agent against the random agent for the three
 
 ## GA 
 
-"INITIAL POPULATION" will be equal to 30. 
+`INITIAL POPULATION` will be equal to 30. 
 
 "OFF SPRING" size is set to 3 and "NUMBER OF GENERATION" is equal to 200. 
 
