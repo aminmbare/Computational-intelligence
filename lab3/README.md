@@ -65,7 +65,7 @@ Our population will consist of 30 individuals
 
 It  consists on taking the average of every the genes frolm both parents and assigning it to the child's
 
-### FiTNESS 
+### FITNESS 
 
 The sum of the winning ratio of our agent against the random agent for the three NIM NUMBERS [4,5,6]
 
@@ -121,5 +121,35 @@ the Q learning agent has won 99.42% of matches against the optimal agent.
 
 
 ### SARSA 
-####ALGORITHM 
+#### ALGORITHM
 ![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/SAR.png)
+#### EXPLORATION VS EXPLOITATION 
+The same approach of Q learning has been taken . 
+
+#### RESULTS (training)
+The following plot will show the winning ratio of the agent against the optimal agent every 100 episodes through all the trainning phase 
+
+![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/SARSA.jpg)
+
+#### RESULTS (test)
+
+the Q learning agent has won 99.38% of matches against the optimal agent. 
+
+### Incremental implementation based on the estimate of the state
+
+![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/II.jpg)
+
+#### EXPLORATION VS EXPLOITATION 
+The same approach of Q learning has been taken .
+
+#### RESULTS (training)
+The following plot will show the winning ratio of the agent against the optimal agent every 100 episodes through all the trainning phase 
+
+![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/RL_Agent.jpg)
+
+#### RESULTS (test)
+
+the Q learning agent has won 84.54% of matches against the optimal agent.
+
+
+
