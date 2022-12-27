@@ -38,7 +38,7 @@ The evaluation is based on 100 Nim matches.
 
 We set our hyper parameters to be $p$ = 0.5 and $q$ = 0.5
 
-We assume that our agent will make the "first move".
+We assume that our agent will make the `first move`.
 
 | Oponent          | Winning ratio     |
 | ---------------- |:-----------------:|
@@ -73,11 +73,11 @@ The sum of the winning ratio of our agent against the random agent for the three
 
 `INITIAL POPULATION` will be equal to 30. 
 
-"OFF SPRING" size is set to 3 and "NUMBER OF GENERATION" is equal to 200. 
+`OFF SPRING` size is set to 3 and `NUMBER OF GENERATION` is equal to 200. 
 
 the fittest inidivual among the population after evolving it has $p$ = 0.2422 and $q$ = 0.898591 . 
 
-We assume that that the EVOLVED AGENT ALWAYS MAKES THE "FIRST MOVE". 
+We assume that that the EVOLVED AGENT ALWAYS MAKES THE `FIRST MOVE`. 
 
 | Oponent                     | Winning ratio     |
 | --------------------------- |:-----------------:|
@@ -86,3 +86,28 @@ We assume that that the EVOLVED AGENT ALWAYS MAKES THE "FIRST MOVE".
 | rule based (p =0.5 , q =0.5 | 70%               |
 
 If we assume that the evolved agent goes second against the rule based agent . the winning ratio 0.63 for the evolved agent. 
+
+
+
+## TASK3.3 
+
+As for this part we will adopt the min max approach , we will make an agent that uses alpha-beta prunnig to limit the number of visited nodes 
+
+Note that the evulation is done with `NIM SIZE` equal to 3. For timing concers and in order to be able to visit the nodes that represent the terminal stage in reasonable times. 
+
+| Oponent                     | Winning ratio     |
+| --------------------------- |:-----------------:|
+| Random Agent                |  100%             | 
+| Optimal Agent               |  100%             | 
+
+## TASK3.4 
+
+For this final task we will make an agent that uses reinforcement learning approaches. 
+
+### Q LEARNING 
+
+```
+aaaa
+
+bbb
+```
