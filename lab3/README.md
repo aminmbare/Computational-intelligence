@@ -109,7 +109,7 @@ For this final task we will make an agent that uses reinforcement learning appro
 ```math
 Repeat (for each episode): 
     
-    Initialize S 
+    Initialize S/ 
     
     Repeat (for each step of episode):
         
