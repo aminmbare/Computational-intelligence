@@ -110,8 +110,17 @@ For this final task we will make an agent that uses reinforcement learning appro
 #### EXPLORATION VS EXPLOITATION 
 This concept will be done through an Annealing fashion , the `random factor` will converge to zero like simluated annealing through out the episode , we set the parameters of the simulated annealing operator such that the first 40% episedes the agent will follow a random policy and right after the `random factor` will converge to zero will start following the policy set by $argmax_a$ $Q$(s,a)
 
-#### RESULT
+#### RESULTS (training)
 The following plot will show the winning ratio of the agent against the optimal agent every 100 episodes through all the trainning phase 
 
 ![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/Q_leaning.jpg)
 
+#### RESULTS (test)
+
+the Q learning agent has won 99.42% of matches against the optimal agent. 
+
+
+### SARSA 
+
+####ALGORITHM 
+![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/SAR.png)
