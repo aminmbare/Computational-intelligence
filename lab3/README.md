@@ -137,7 +137,7 @@ the Q learning agent has won 99.38% of matches against the optimal agent.
 
 ### Incremental implementation based on the estimate of the state
 
-![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/II.jpg)
+![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/Screenshot%202022-12-27%20at%2019.00.29.png)
 
 #### EXPLORATION VS EXPLOITATION 
 The same approach of Q learning has been taken .
