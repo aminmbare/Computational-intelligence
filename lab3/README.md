@@ -105,8 +105,9 @@ Note that the evulation is done with `NIM SIZE` equal to 3. For timing concers a
 For this final task we will make an agent that uses reinforcement learning approaches. 
 
 ### Q LEARNING 
+
 ```math
-Repeat (for each episode): \\\
+Repeat (for each episode): \\
 Initialize S: \\\
 Repeat (for each step of episode) \\\
  Choose $A$ from $S$ using policy derived from Q (e.g $\epsilon$ -greedy)}
