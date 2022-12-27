@@ -106,4 +106,4 @@ For this final task we will make an agent that uses reinforcement learning appro
 
 ### Q LEARNING 
 
-
+![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/Q.png)
