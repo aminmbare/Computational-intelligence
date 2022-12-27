@@ -106,8 +106,5 @@ For this final task we will make an agent that uses reinforcement learning appro
 
 ### Q LEARNING 
 ```math
-Repeat (for each episode):
-   Initialize S:
-      Repeat (for each step of episode)
-         Choose $A$ from $S$ using policy derived from Q (e.g $\epsilon$ -greedy)
+Repeat (for each episode): \\ Initialize S: \\Repeat (for each step of episode) \\ Choose $A$ from $S$ using policy derived from Q (e.g $\epsilon$ -greedy)
 ```
