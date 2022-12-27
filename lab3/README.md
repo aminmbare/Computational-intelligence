@@ -31,3 +31,17 @@ An easy way to think about making the nim-sum 0 is to always leave even subpiles
 -  pick the longest pillar and take all the elements in it. 
 
 • if the active pillars in Nim game is equal 
+
+Below we will provide the winning ratio for out rule based agent against the random agent and optimal agent. 
+
+The evaluation is based on 100 Nim matches.
+
+We set our hyper parameters to be $p$ = 0.5 and $q$ = 0.5
+
+We assume that our agent will make the first move.
+
+| Oponent          | Winning ratio     |
+| ---------------- |:-----------------:|
+| Random Agent     |  85%              | 
+| Optimal Agent    |  0%               | 
+
