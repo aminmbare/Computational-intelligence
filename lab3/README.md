@@ -28,6 +28,82 @@ An easy way to think about making the nim-sum 0 is to always leave even subpiles
 
 - if there is a pair of pillars that contain the same amount of elements , we eliminate the third pillar that is different from the identical pair, or if the previous case is true. We pick the longest pillar and we try to keep just one element in it after we finish our move. 
 
--  pick the longest pillar and take all the elements in it. 
+-  we pick the longest pillar and we try to keep just one element in it after we finish our move. 
 
 • if the active pillars in Nim game is equal 
+
+Below we will provide the winning ratio for out rule based agent against the random agent and optimal agent. 
+
+The evaluation is based on 100 Nim matches.
+
+We set our hyper parameters to be $p$ = 0.5 and $q$ = 0.5
+
+We assume that our agent will make the `first move`.
+
+| Oponent          | Winning ratio     |
+| ---------------- |:-----------------:|
+| Random Agent     |  86%              | 
+| Optimal Agent    |  0%               | 
+
+
+## TASK3.2
+
+The goal is to find the optimal or sub optimal set of $p$ and $q$ (defined in task one) by using a genetic algorithm. 
+By optimality we mean the set that will guarantee the highest winning ratio against the Random Agent
+
+### ENCODING 
+
+Each chromosome will consist of two genes one that represent the $p$ hyper-parameter and the second will represent $q$. 
+
+### Initial Popilation
+
+Our population will be randomly generated , we will randomly assign a value in  the range (0,1) for every gene in each inidivual 
+
+Our population will consist of 30 individuals
+
+### Cross-Over
+
+It  consists on taking the average of every the genes frolm both parents and assigning it to the child's
+
+### FiTNESS 
+
+The sum of the winning ratio of our agent against the random agent for the three NIM NUMBERS [4,5,6]
+
+## GA 
+
+`INITIAL POPULATION` will be equal to 30. 
+
+`OFF SPRING` size is set to 3 and `NUMBER OF GENERATION` is equal to 200. 
+
+the fittest inidivual among the population after evolving it has $p$ = 0.2422 and $q$ = 0.898591 . 
+
+We assume that that the EVOLVED AGENT ALWAYS MAKES THE `FIRST MOVE`. 
+
+| Oponent                     | Winning ratio     |
+| --------------------------- |:-----------------:|
+| Random Agent                |  95%              | 
+| Optimal Agent               |  0%               | 
+| rule based (p =0.5 , q =0.5 | 70%               |
+
+If we assume that the evolved agent goes second against the rule based agent . the winning ratio 0.63 for the evolved agent. 
+
+
+
+## TASK3.3 
+
+As for this part we will adopt the min max approach , we will make an agent that uses alpha-beta prunnig to limit the number of visited nodes 
+
+Note that the evulation is done with `NIM SIZE` equal to 3. For timing concers and in order to be able to visit the nodes that represent the terminal stage in reasonable times. 
+
+| Oponent                     | Winning ratio     |
+| --------------------------- |:-----------------:|
+| Random Agent                |  100%             | 
+| Optimal Agent               |  100%             | 
+
+## TASK3.4 
+
+For this final task we will make an agent that uses reinforcement learning approaches. 
+
+### Q LEARNING 
+
+
