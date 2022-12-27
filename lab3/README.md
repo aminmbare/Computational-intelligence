@@ -137,6 +137,7 @@ the Q learning agent has won 99.38% of matches against the optimal agent.
 
 ### Incremental implementation based on the estimate of the state
 
+#### ALGORITHM
 ![alt text](https://github.com/aminmbare/Computational-intelligence/blob/main/lab3/PLOTS/Screenshot%202022-12-27%20at%2019.00.29.png)
 
 #### EXPLORATION VS EXPLOITATION 
@@ -152,4 +153,12 @@ The following plot will show the winning ratio of the agent against the optimal 
 the Q learning agent has won 84.54% of matches against the optimal agent.
 
 
+## ACKNOWLEGEMENT
+### min-max
 
+• [min max](https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague)
+
+### RL 
+
+•  Reinforcement Learning: An Introduction. Richard S. Sutton and Andrew G. Barto c 2014, 2015. 
+•  [this ](https://github.com/abelmariam/nimPy)
