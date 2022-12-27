@@ -42,6 +42,6 @@ We assume that our agent will make the first move.
 
 | Oponent          | Winning ratio     |
 | ---------------- |:-----------------:|
-| Random Agent     |  85%              | 
+| Random Agent     |  86%              | 
 | Optimal Agent    |  0%               | 
 
