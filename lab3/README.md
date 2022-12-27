@@ -163,3 +163,5 @@ the Q learning agent has won 84.54% of matches against the optimal agent.
 •  Reinforcement Learning: An Introduction. Richard S. Sutton and Andrew G. Barto c 2014, 2015. 
 
 •  https://github.com/abelmariam/nimPy
+
+• Code provided in lab 
