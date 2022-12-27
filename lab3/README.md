@@ -107,7 +107,7 @@ For this final task we will make an agent that uses reinforcement learning appro
 ### Q LEARNING 
 
 ```math
-Repeat (for each episode): 
+Repeat (for each episode)://
     
     Initialize S\\ 
     
